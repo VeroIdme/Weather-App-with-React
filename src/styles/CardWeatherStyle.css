@@ -1,0 +1,132 @@
+
+.container-principal{
+   background-color: #243755; 
+   opacity: .9;
+   color: white;
+   font-family:  'Nanum Gothic', sans-serif;
+   padding:20px ;
+   border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+h2{
+ font-weight: 200;
+ font-size: 20px;
+ padding: 10px;
+ text-align: center;
+}
+.container-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-btn-temp{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+}
+h3.messure{
+    font-size: 60px;
+    font-weight: 100;
+    padding-top: 12px;
+    
+}
+.container-img{
+    width: 100px;
+    height: 100px;
+}
+.container-img>img{
+    width: 100%;
+}
+button{
+    background: #32425c;
+    border: none;
+    padding: 3px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+    color: white;
+}
+button:hover{
+    box-shadow: 0px 0px 3px #EEE;
+}
+.container-second{
+    margin: 20px;
+}
+h3.description{
+    text-align: center;
+    font-weight: lighter;
+}
+.list{
+    list-style: none;
+    display: flex;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    padding: 8px;
+    background: #32425c;
+}
+.list>li{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    padding: 25px 15px;
+    margin: 2px;
+    border-right: solid #62728c;
+}
+.list>li.li3{
+    border-right: none;
+}
+h4{
+    margin: 0 10px;
+    text-align: center;
+    font-size: 11px;
+}
+.container-principal-ld{
+    background-color:white; 
+    padding:20px ;
+    border-radius: 20px;
+    width: 550px;
+    height: 450px;
+ }
+ .container-principal-ld>h1{
+    background-color: #EEE;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+ }
+ .container-principal-ld>h2{
+    background-color: #EEE;
+    width: 30%;
+    margin: auto;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+ }
+ .container-btn-ld{
+    background-color: #EEE;
+    width: 60%;
+    margin: auto;
+    height: 130px;
+    margin-top: 20px;
+    border-radius: 10px;
+ }
+ .description-ld{
+    background-color: #EEE;
+    width: 20%;
+    margin: auto;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+ }
+ .list-ld{
+    background-color: #EEE;
+    width: 90%;
+    margin: auto;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+ }
