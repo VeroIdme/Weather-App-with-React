@@ -84,9 +84,9 @@ const CardWeather = () => {
           <div className='container-second'>
             <h3 className='description'><b>"{`${getWeather?.weather[0].description}`}"</b></h3>
               <ul className='list'>
-                <li className='1'><img src='../public/assets/vent (3).png'/><h4>Wind speed <br/>{`${getWeather?.wind.speed}`} m/s</h4></li>
-                <li className='2'><img src='../public/assets/cloud-computing (1).png'/><h4> Clouds <br/>{`${getWeather?.clouds.all}`} %</h4></li>          
-                <li className='li3'><img src='../public/assets/resilience.png'/><h4> Pressure <br/> {`${getWeather?.main.pressure}`} mb</h4></li>
+                <li className='1'><img src='..//assets/vent (3).png'/><h4>Wind speed <br/>{`${getWeather?.wind.speed}`} m/s</h4></li>
+                <li className='2'><img src='..//assets/cloud-computing (1).png'/><h4> Clouds <br/>{`${getWeather?.clouds.all}`} %</h4></li>          
+                <li className='li3'><img src='..//assets/resilience.png'/><h4> Pressure <br/> {`${getWeather?.main.pressure}`} mb</h4></li>
               </ul>
           </div>
           
